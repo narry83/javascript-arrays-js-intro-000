@@ -5,10 +5,14 @@ var newArray = [];
 chocolateBars
 
 function addElementToBeginningOfArray(newArray, string) {
-    newArray.unshift(string)
+  const newArray
+  const arrayNew=[newArray,...newArray]
+
+
+    return arrayNew
 
 }
 
-function destructivelyAddElementToBeginningOfArray() {
-  var evenNumbers = new Array();
+function destructivelyAddElementToBeginningOfArray(newArray, string) {
+    newArray.unshift(string)
 }
